@@ -2,12 +2,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // ✅ Khởi tạo hình chữ nhật mặc định
+    
         System.out.println("==> Hình chữ nhật mặc định:");
         Rectangle rect1 = new Rectangle();
         rect1.display();
 
-        // ✅ Khởi tạo hình chữ nhật với kích thước do người dùng nhập
         Scanner scanner = new Scanner(System.in);
         System.out.print("\nNhập chiều dài: ");
         double length = scanner.nextDouble();
